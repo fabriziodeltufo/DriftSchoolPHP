@@ -1,3 +1,5 @@
+/* DriftSchoolPHP */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,6 +21,9 @@ a {
 }
 
 /* HEADER */
+
+.customize-support .header{top:32px;}
+
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -41,8 +46,6 @@ a {
 }
 
 
-
-
 .header-menu {
   margin-right:10px;
 }
@@ -55,10 +58,9 @@ a {
   text-align: center;
 }
 
-.header-menu ul a li:hover {
-  background-color: black;
-  color: white;
-}
+.header-menu li:hover{background-color: black; cursor: pointer;}
+.header-menu li:hover a{color:white;}
+
 
 
 

@@ -1,5 +1,4 @@
 <!-- header.php -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,15 +35,9 @@
     <div class="header-menu">
 
       <ul >
-        <a href="index.php">
-          <li>Home</li>
-        </a>
-        <a href="servizi.php">
-          <li>Servizi</li>
-        </a>
-        <a href="contatti.php">
-          <li>Contatti</li>
-        </a>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="servizi.php">Servizi</a></li>
+          <li><a href="contatti.php">Contatti</a></li>
       </ul>
 
     </div>
